@@ -577,3 +577,32 @@
 	    display: block;
 	}
 }
+
+/* WhatsApp Float Button Responsive Styles */
+@media only screen and (max-width: 767px) {
+	.whatsapp-float {
+		width: 55px;
+		height: 55px;
+		bottom: 15px;
+		right: 15px;
+		font-size: 26px;
+	}
+	
+	.whatsapp-float i {
+		font-size: 26px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.whatsapp-float {
+		width: 50px;
+		height: 50px;
+		bottom: 10px;
+		right: 10px;
+		font-size: 24px;
+	}
+	
+	.whatsapp-float i {
+		font-size: 24px;
+	}
+}

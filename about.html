@@ -7,7 +7,7 @@
 	<meta name="description" content="Premium Dry Fruits Store - Order fresh and organic dry fruits online">
 
 	<!-- title -->
-	<title>About - DryFruitkha</title>
+	<title>About - Bismilllah Dry Fruit & Slajeet</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
@@ -16,6 +16,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
 	<!-- fontawesome -->
 	<link rel="stylesheet" href="assets/css/all.min.css">
+	<!-- fontawesome CDN for latest icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 	<!-- owl carousel -->
@@ -30,45 +32,19 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 	<!-- responsive -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
-	
-	<!-- custom banner styles -->
-	<style>
-		.breadcrumb-bg {
-			background-image: url('assets/img/main dry fruits.jpg') !important;
-			background-size: cover;
-			background-position: center;
-		}
-		.shop-banner {
-			background-image: url('assets/img/main dry fruits.jpg') !important;
-			background-size: cover;
-			background-position: center;
-			position: relative;
-		}
-		.shop-banner::before {
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			background: rgba(0, 0, 0, 0.3);
-			z-index: 1;
-		}
-		.shop-banner .container {
-			position: relative;
-			z-index: 2;
-		}
-	</style>
+
+
+
 
 </head>
 <body>
 	
 	<!--PreLoader-->
-    <div class="loader">
+    <!-- <div class="loader">
         <div class="loader-inner">
             <div class="circle"></div>
         </div>
-    </div>
+    </div> -->
     <!--PreLoader Ends-->
 	
 	<!-- header -->
@@ -88,42 +64,18 @@
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li class="current-list-item"><a href="#">Home</a>
+								<li><a href="index.html">Home</a>
 									<ul class="sub-menu">
 										<li><a href="index.html">Static Home</a></li>
 										<li><a href="index_2.html">Slider Home</a></li>
 									</ul>
 								</li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="#">Pages</a>
-									<ul class="sub-menu">
-										<li><a href="404.html">404 page</a></li>
-										<li><a href="about.html">About</a></li>
-										<li><a href="cart.html">Cart</a></li>
-										<li><a href="checkout.html">Check Out</a></li>
-										<li><a href="contact.html">Contact</a></li>
-										<li><a href="news.html">News</a></li>
-										<li><a href="shop.html">Shop</a></li>
-									</ul>
-								</li>
-								<li><a href="news.html">News</a>
-									<ul class="sub-menu">
-										<li><a href="news.html">News</a></li>
-										<li><a href="single-news.html">Single News</a></li>
-									</ul>
-								</li>
+								<li class="current-list-item"><a href="about.html">About Us</a></li>
+								<li><a href="shop.html">Our Dry Fruits</a></li>
+								<li><a href="single-product.html">Benefits</a></li>
 								<li><a href="contact.html">Contact</a></li>
-								<li><a href="shop.html">Shop</a>
-									<ul class="sub-menu">
-										<li><a href="shop.html">Shop</a></li>
-										<li><a href="checkout.html">Check Out</a></li>
-										<li><a href="single-product.html">Single Product</a></li>
-										<li><a href="cart.html">Cart</a></li>
-									</ul>
-								</li>
 								<li>
 									<div class="header-icons">
-										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
 										<a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
 									</div>
 								</li>
@@ -148,8 +100,8 @@
 					<div class="search-bar">
 						<div class="search-bar-tablecell">
 							<h3>Search For:</h3>
-							<input type="text" placeholder="Keywords">
-							<button type="submit">Search <i class="fas fa-search"></i></button>
+							<input type="text" id="search-input" placeholder="Search for dry fruits (e.g., almonds, cashews, dates...)">
+							<button type="submit" id="search-btn">Search <i class="fas fa-search"></i></button>
 						</div>
 					</div>
 				</div>
@@ -173,56 +125,107 @@
 	</div>
 	<!-- end breadcrumb section -->
 
-	<!-- featured section -->
-	<div class="feature-bg">
+	<!-- comprehensive about section -->
+	<div class="comprehensive-about-section mt-150 mb-150">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-7">
-					<div class="featured-text">
-						<h2 class="pb-3">Why <span class="orange-text">DryFruitkha</span></h2>
+				<div class="col-lg-8 offset-lg-2 text-center">
+					<div class="section-title">
+						<h3>About <span class="orange-text">Bismilllah Dry Fruit & Slajeet</span></h3>
+						<p>Discover the story behind Pakistan's most trusted dry fruits retailer and our commitment to quality, tradition, and customer satisfaction.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row align-items-center mb-80">
+				<div class="col-lg-6 col-md-12">
+					<div class="about-content">
+						<div class="about-card">
+							<div class="about-icon">
+								<i class="fas fa-history"></i>
+							</div>
+							<h4>Our Heritage</h4>
+							<p>Since 1999, Bismilllah Dry Fruit & Slajeet has been a cornerstone of quality in Pakistan's dry fruits industry. What began as a small family venture has evolved into a trusted name, serving thousands of satisfied customers across the country.</p>
+						</div>
+						
+						<div class="about-card">
+							<div class="about-icon">
+								<i class="fas fa-leaf"></i>
+							</div>
+							<h4>Quality Promise</h4>
+							<p>We source our premium dry fruits directly from the finest orchards and trusted suppliers worldwide. Every product undergoes rigorous quality checks to ensure you receive only the freshest, most nutritious dry fruits.</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-6 col-md-12">
+					<div class="about-image-section">
+						<div class="about-main-image">
+							<img src="assets/imgs/mix fruits.avif" alt="Premium Dry Fruits Collection" class="img-fluid">
+							<div class="experience-badge">
+								<div class="badge-content">
+									<span class="years">25+</span>
+									<span class="text">Years of<br>Excellence</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-4 col-md-6 mb-4">
+					<div class="value-card">
+						<div class="value-icon">
+							<i class="fas fa-award"></i>
+						</div>
+						<h5>Premium Quality</h5>
+						<p>Hand-picked, naturally processed dry fruits with no artificial additives or preservatives.</p>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 mb-4">
+					<div class="value-card">
+						<div class="value-icon">
+							<i class="fas fa-users"></i>
+						</div>
+						<h5>Customer First</h5>
+						<p>Your satisfaction is our priority. We build lasting relationships through trust and quality service.</p>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 mb-4">
+					<div class="value-card">
+						<div class="value-icon">
+							<i class="fas fa-globe"></i>
+						</div>
+						<h5>Global Sourcing</h5>
+						<p>We bring you the finest dry fruits from the best regions around the world, ensuring authentic taste and quality.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row mt-80">
+				<div class="col-lg-12">
+					<div class="mission-vision-section">
 						<div class="row">
-							<div class="col-lg-6 col-md-6 mb-4 mb-md-5">
-								<div class="list-box d-flex">
-									<div class="list-icon">
-										<i class="fas fa-shipping-fast"></i>
+							<div class="col-lg-6 col-md-12 mb-4">
+								<div class="mission-card">
+									<div class="card-header">
+										<i class="fas fa-bullseye"></i>
+										<h4>Our Mission</h4>
 									</div>
-									<div class="content">
-										<h3>Home Delivery</h3>
-										<p>sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
-									</div>
+									<p>To provide our customers with the highest quality dry fruits and traditional health products at competitive prices, while preserving the authentic flavors and nutritional benefits that nature intended.</p>
 								</div>
 							</div>
-							<div class="col-lg-6 col-md-6 mb-5 mb-md-5">
-								<div class="list-box d-flex">
-									<div class="list-icon">
-										<i class="fas fa-money-bill-alt"></i>
+							
+							<div class="col-lg-6 col-md-12 mb-4">
+								<div class="vision-card">
+									<div class="card-header">
+										<i class="fas fa-eye"></i>
+										<h4>Our Vision</h4>
 									</div>
-									<div class="content">
-										<h3>Best Price</h3>
-										<p>sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6 mb-5 mb-md-5">
-								<div class="list-box d-flex">
-									<div class="list-icon">
-										<i class="fas fa-briefcase"></i>
-									</div>
-									<div class="content">
-										<h3>Custom Box</h3>
-										<p>sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6">
-								<div class="list-box d-flex">
-									<div class="list-icon">
-										<i class="fas fa-sync-alt"></i>
-									</div>
-									<div class="content">
-										<h3>Quick Refund</h3>
-										<p>sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
-									</div>
+									<p>To become Pakistan's leading dry fruits retailer, known for exceptional quality, customer service, and authentic products that promote healthy living and well-being for families across the nation.</p>
 								</div>
 							</div>
 						</div>
@@ -231,17 +234,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- end featured section -->
-
-	<!-- shop banner -->
-	<section class="shop-banner">
-    	<div class="container">
-        	<h3>December sale is on! <br> with big <span class="orange-text">Discount...</span></h3>
-            <div class="sale-percent"><span>Sale! <br> Upto</span>50% <span>off</span></div>
-            <a href="https://wa.me/923001234567?text=Hi! I want to browse your dry fruits collection" class="cart-btn btn-lg" target="_blank"><i class="fab fa-whatsapp"></i> Order Now</a>
-        </div>
-    </section>
-	<!-- end shop banner -->
+	<!-- end comprehensive about section -->
 
 	<!-- team section -->
 	<div class="mt-150">
@@ -257,34 +250,34 @@
 			<div class="row">
 				<div class="col-lg-4 col-md-6">
 					<div class="single-team-item">
-						<div class="team-bg team-bg-1"></div>
-						<h4>Jimmy Doe <span>Farmer</span></h4>
+						<div class="team-bg team-bg-faisal"></div>
+						<h4>Faisal Kareem <span>Founder & CEO</span></h4>
 						<ul class="social-link-team">
-							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/share/17eDjxqZs2/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="mailto:Bismilllahdryfruitsalajet@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
+							<li><a href="https://www.tiktok.com/@bismilllahdryfruitsaljat" target="_blank"><i class="fab fa-tiktok"></i></a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="single-team-item">
-						<div class="team-bg team-bg-2"></div>
-						<h4>Marry Doe <span>Farmer</span></h4>
+						<div class="team-bg team-bg-fahad"></div>
+						<h4>Dr. Fahad Riyaz <span>Business Partner</span></h4>
 						<ul class="social-link-team">
-							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/share/17eDjxqZs2/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="mailto:Bismilllahdryfruitsalajet@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
+							<li><a href="https://www.tiktok.com/@bismilllahdryfruitsaljat" target="_blank"><i class="fab fa-tiktok"></i></a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
 					<div class="single-team-item">
-						<div class="team-bg team-bg-3"></div>
-						<h4>Simon Joe <span>Farmer</span></h4>
+						<div class="team-bg team-bg-haseeb"></div>
+						<h4>Malik Haseeb Kareem <span>Operations Manager</span></h4>
 						<ul class="social-link-team">
-							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/share/17eDjxqZs2/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="mailto:Bismilllahdryfruitsalajet@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
+							<li><a href="https://www.tiktok.com/@bismilllahdryfruitsaljat" target="_blank"><i class="fab fa-tiktok"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -297,6 +290,14 @@
 	<div class="testimonail-section mt-80 mb-150">
 		<div class="container">
 			<div class="row">
+				<div class="col-lg-8 offset-lg-2 text-center">
+					<div class="section-title">
+						<h3>What Our <span class="orange-text">Customers Say</span></h3>
+						<p>Hear from our valued customers about their experience with Bismilllah Dry Fruit & Slajeet and our dedicated team.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
 				<div class="col-lg-10 offset-lg-1 text-center">
 					<div class="testimonial-sliders">
 						<div class="single-testimonial-slider">
@@ -304,9 +305,9 @@
 								<img src="assets/img/avaters/avatar1.png" alt="">
 							</div>
 							<div class="client-meta">
-								<h3>Saira Hakim <span>Local shop owner</span></h3>
+								<h3>Ahmad Ali <span>Loyal Customer Since 2020</span></h3>
 								<p class="testimonial-body">
-									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+									" Bismilllah Dry Fruit & Slajeet has been our family's trusted source for premium dry fruits for years. Faisal bhai and his team always ensure the highest quality. Their commitment to customer satisfaction and authentic products makes them stand out in the market. "
 								</p>
 								<div class="last-icon">
 									<i class="fas fa-quote-right"></i>
@@ -318,9 +319,9 @@
 								<img src="assets/img/avaters/avatar2.png" alt="">
 							</div>
 							<div class="client-meta">
-								<h3>David Niph <span>Local shop owner</span></h3>
+								<h3>Hassam Sheikh <span>Health Store Owner</span></h3>
 								<p class="testimonial-body">
-									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+									" I've been working with Bismilllah team for my health store supplies. Their professionalism, quality assurance, and reliable service is exceptional. The team's knowledge about dry fruits and their health benefits is impressive. Highly recommend their business! "
 								</p>
 								<div class="last-icon">
 									<i class="fas fa-quote-right"></i>
@@ -332,9 +333,9 @@
 								<img src="assets/img/avaters/avatar3.png" alt="">
 							</div>
 							<div class="client-meta">
-								<h3>Jacob Sikim <span>Local shop owner</span></h3>
+								<h3>Muhammad Hassan <span>Corporate Client</span></h3>
 								<p class="testimonial-body">
-									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+									" Working with Bismilllah Dry Fruit & Slajeet has been a pleasure. Their team's dedication to quality and customer service is remarkable. From bulk orders to special packaging, they handle everything professionally. A trustworthy business with genuine people! "
 								</p>
 								<div class="last-icon">
 									<i class="fas fa-quote-right"></i>
@@ -348,33 +349,61 @@
 	</div>
 	<!-- end testimonail-section -->
 
-	<!-- logo carousel -->
-	<div class="logo-carousel-section">
+	<!-- location section -->
+	<div class="location-section mt-150 mb-150">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
-					<div class="logo-carousel-inner">
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/1.png" alt="">
+				<div class="col-lg-8 offset-lg-2 text-center">
+					<div class="section-title">
+						<h3>Our <span class="orange-text">Location</span></h3>
+						<p>Visit us at our store in Banigala, Imran Khan Chowk for the freshest selection of premium dry fruits.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-8 col-md-12">
+					<div class="map-container">
+						<iframe 
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.8!2d73.1666!3d33.7189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDQzJzA4LjAiTiA3M8KwMDknNTkuNiJF!5e0!3m2!1sen!2s!4v1640000000000!5m2!1sen!2s" 
+							width="100%" 
+							height="400" 
+							style="border:0; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);" 
+							allowfullscreen="" 
+							loading="lazy" 
+							referrerpolicy="no-referrer-when-downgrade">
+						</iframe>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12">
+					<div class="location-info">
+						<div class="location-box">
+							<h4><i class="fas fa-map-marker-alt"></i> Address</h4>
+							<p>Banigala, Imran Khan Chowk<br>Islamabad, Pakistan</p>
 						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/2.png" alt="">
+						<div class="location-box">
+							<h4><i class="fas fa-phone"></i> Phone</h4>
+							<p>03339800800</p>
 						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/3.png" alt="">
+						<div class="location-box">
+							<h4><i class="fas fa-envelope"></i> Email</h4>
+							<p>Bismilllahdryfruitsalajet@gmail.com</p>
 						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/4.png" alt="">
+						<div class="location-box">
+							<h4><i class="fas fa-clock"></i> Business Hours</h4>
+							<p>Monday - Saturday: 9:00 AM - 8:00 PM<br>Sunday: 10:00 AM - 6:00 PM</p>
 						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/5.png" alt="">
+						<div class="location-box">
+							<h4><i class="fab fa-whatsapp"></i> WhatsApp Order</h4>
+							<a href="https://wa.me/923498959433?text=Hi! I want to visit your store. Can you provide directions?" class="cart-btn" target="_blank">
+								<i class="fab fa-whatsapp"></i> Get Directions
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- end logo carousel -->
+	<!-- end location section -->
 
 	<!-- footer -->
 	<div class="footer-area">
@@ -390,9 +419,9 @@
 					<div class="footer-box get-in-touch">
 						<h2 class="widget-title">Get in Touch</h2>
 						<ul>
-							<li>Premium Dry Fruits Store, Main Street</li>
-							<li>support@dryfruitkha.com</li>
-							<li>+1 234 567 8900</li>
+							<li>Banigala, Imran Khan Chowk</li>
+							<li>Bismilllahdryfruitsalajet@gmail.com</li>
+							<li>03339800800</li>
 						</ul>
 					</div>
 				</div>
@@ -403,7 +432,7 @@
 							<li><a href="index.html">Home</a></li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="services.html">Shop</a></li>
-							<li><a href="news.html">News</a></li>
+					
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</div>
@@ -428,18 +457,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-12">
-					<p>Copyrights &copy; 2024 - <a href="index.html">DryFruitkha</a>,  All Rights Reserved.<br>
+					<p>Copyrights &copy; 2026 - <a href="index.html">Bismilllah Dry Fruit & Slajeet</a>,  All Rights Reserved.<br>
 						Premium Dry Fruits - Your Trusted Source for Quality Nuts & Dried Fruits
 					</p>
 				</div>
 				<div class="col-lg-6 text-right col-md-12">
 					<div class="social-icons">
 						<ul>
-							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+							<li><a href="https://www.facebook.com/share/17eDjxqZs2/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="mailto:Bismilllahdryfruitsalajet@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
+							<li><a href="https://www.tiktok.com/@bismilllahdryfruitsaljat" target="_blank"><i class="fab fa-tiktok"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -468,6 +495,9 @@
 	<script src="assets/js/sticker.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
+
+
+
 
 </body>
 </html>
